@@ -19,7 +19,7 @@ public class SessionDTO {
         this.userId = userId;
     }
 
-    public SessionDTO(SessionDTO dto, String sessionId){
+    public SessionDTO(SessionDTO dto, String sessionId) {
         this.id = dto.id;
         this.userId = dto.userId;
         this.sessionId = sessionId;
